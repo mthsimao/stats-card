@@ -1,2 +1,2 @@
-# stats-card
- Cartão de status 
+# stats-nft-card
+ Projeto de um card em nft para aprender mais sobre HTML e CSS
