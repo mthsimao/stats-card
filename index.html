@@ -5,21 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
 </head>
 <body>
+  <main>
+    <div class="card">
 
-  Get insights that help your business grow.
+      <div class="text">
+      
+        <h1>Get <span>insights</span> that help your business grow.</h1>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+        <p class="description">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+        <div class="bottom-part">
+          <p>10k+ <br> <span>companies</span> </p>
+          <p>314 <br> <span>templates</span> </p>
+          <p>12m+ <br> <span>queries</span> </p>
+        </div>
+      </div>
 
+      <picture>
+        <source media="(max-width: 1024px)" srcset="images/image-header-mobile.jpg">
+        <img src="images/image-header-desktop.jpg" class="img">
+      </picture>
+      
+    </div>
+
+  </main>
 
 </body>
 </html>
